@@ -1,6 +1,6 @@
 ## Typecho 图片水印插件
 
-本插件仅支持 png \ gif 格式的图片作为水印。
+本插件仅支持 png \ jpg 格式的图片作为水印。
 
 推荐使用 png 格式的图片作为水印，以保证水印的质量。
 
@@ -16,5 +16,11 @@ waterMark/
 ├── Plugin.php
 └── watermark.png
 ```
+
+## 更新
+
+**2018-9-21**
+- 取消了对 typecho 版本的要求
+- 增加了 2x 水印的支持
 
 访问：https://www.appgao.com/Programming/typecho-watermark.html
