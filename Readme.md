@@ -14,7 +14,8 @@
 waterMark/
 ├── imgfunc.php
 ├── Plugin.php
-└── watermark.png
+├── watermark.png
+└── watermark2x.png
 ```
 
 ## 更新
@@ -22,5 +23,6 @@ waterMark/
 **2018-9-21**
 - 取消了对 typecho 版本的要求
 - 增加了 2x 水印的支持
+- 支持小图片不加水印
 
 访问：https://www.appgao.com/Programming/typecho-watermark.html
