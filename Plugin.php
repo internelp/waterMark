@@ -24,7 +24,7 @@ class waterMark_Plugin implements Typecho_Plugin_Interface {
         $waterMarkImg = new Typecho_Widget_Helper_Form_Element_Text('waterMarkImg', NULL, '/usr/plugins/waterMark/watermark.png', _t('水印路径（png，相对路径）'));
         $waterMarkImg2x = new Typecho_Widget_Helper_Form_Element_Text('waterMarkImg2x', NULL, '/usr/plugins/waterMark/watermark2x.png', _t('针对大图片设定的水印，建议尺寸为默认水印的2倍'));
         $minPixels = new Typecho_Widget_Helper_Form_Element_Text('minPixels', NULL, '50000', _t('使用水印最低像素数（默认为250*200=50000，即 长*宽>50000 的图片将使用水印）'));
-        $waterMarkImg2xMinPixels = new Typecho_Widget_Helper_Form_Element_Text('waterMarkImg2xMinPixels', NULL, '786432', _t('使用2x 水印最低像素数（默认为1024*768=786432））'));
+        $waterMarkImg2xMinPixels = new Typecho_Widget_Helper_Form_Element_Text('waterMarkImg2xMinPixels', NULL, '786432', _t('使用2x 水印最低像素数（默认为1024*768=786432）'));
         $waterMarkPos = new Typecho_Widget_Helper_Form_Element_Text('waterMarkPos', NULL, '0', _t('水印位置（九宫格位置填写0-9，1-9为位置，0为随机。）'));
         $waterMarkAllow = new Typecho_Widget_Helper_Form_Element_Text('waterMarkAllow', NULL, 'jpg,png', _t('水印图片格式，直接填写格式以半角逗号分隔，gif加水印后会失去动画效果。'));
         $waterMarkquality = new Typecho_Widget_Helper_Form_Element_Text('waterMarkquality', NULL, '100', _t('图片质量（0-100）'));
