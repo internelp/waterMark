@@ -3,7 +3,7 @@
 // 本文件提取自 phpwind
 
 
-function ImgWaterMark( $db_waterfonts, $db_watermark,$source, $w_pos = 0, $w_img = '', $w_text = '', $w_font = 12, $w_color = '#FF0000', $w_pct, $w_quality, $dstsrc = null) {
+function ImgWaterMark($w_quality, $w_pct, $db_waterfonts, $db_watermark,$source, $w_pos = 0, $w_img = '', $w_text = '', $w_font = 12, $w_color = '#FF0000', $dstsrc = null) {
 
 	$sourcedb = $waterdb = array();
 
