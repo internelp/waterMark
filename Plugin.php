@@ -4,7 +4,7 @@
  * 
  * @package waterMark
  * @author 应用侠
- * @version 1.0.1
+ * @version 1.0.2
  * @link https://www.appgao.com
  */
 
@@ -76,7 +76,7 @@ class waterMark_Plugin implements Typecho_Plugin_Interface {
                         $destImg = $srcImg;
                         $srcImg = $srcImg.'.tmp';
                         require_once("imgfunc.php");
-                        ImgWaterMark("", 1,$srcImg,$waterMarkPos,$waterImg, '', 12, '#FF0000',  100 , $waterMarkquality, $destImg);
+                        ImgWaterMark($waterMarkquality, 100, "", 1,$srcImg,$waterMarkPos,$waterImg, '', 12, '#FF0000', $destImg);
                         unlink($srcImg);
                     }
                 }
